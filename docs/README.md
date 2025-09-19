@@ -1,10 +1,19 @@
-# Math formulas
-## Area
-- Circle: S = πR²
-- Rectangle: S = ab
-- Square: S = a²
+# Geometric Library - Документация
 
-## Perimeter
-- Circle: P = 2πR
-- Rectangle: P = 2a + 2b
-- Square: P = 4a
+## Общее описание решения
+
+Библиотека geometric_lib предоставляет функции для вычисления площади и периметра геометрических фигур.
+
+## Описание функций
+
+### Прямоугольник (rectangle.py)
+
+#### area(a, b)
+Вычисляет площадь прямоугольника.
+
+Параметры:
+- a (float): длина
+- b (float): ширина
+
+Возвращает:
+- float: площадь прямоугольника
